@@ -1,0 +1,89 @@
+Git Basics
+
+Clone
+
+1. Key generate, 
+    i)  Putty-gen tool
+    ii) command-line key (refer github documentation)
+2. Key submit (github/private repository)
+
+I) Clone
+Root clone - git clone git@{repo-name} (master/root) clone
+
+Branch clone - git clone -b {branch-name} git@{repo-name}
+
+Trees
+  root - 1
+  branches - multi
+
+II) Checking-in the code to repository
+
+cd d:/krithika/doosra/  
+ git branch 
+git status  
+  
+1. Commit  
+        git commit -m "{message}"
+2. push
+        git push origin {branch/root}
+
+Branching 
+cd d:/krithika/doosra/  
+git branch - to know the status
+
+git checkout -b {new-branch-name}    
+git checkout {branch-name}
+
+Merging (Ex: Merging master into a branch called branch1)
+
+master
+* branch1
+
+git checkout master switch to master first)
+git branch (to know the status)
+* master
+branch1
+
+git pull origin {master-name/branch-name} {keep master up-to-date)
+
+git checkout branch1
+master
+* branch1
+
+git merge master (merging master into branch)
+
+git push origin branch1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://stevelosh.com/blog/2010/01/the-real-difference-between-mercurial-and-git/
+
+
+
+cd d:/doosra/repo-management/doosra-international
+
+
+
+
+Krithika,
+ 
+I want you to take a session on GIT sometime later to PAT and few other folks who are interested. 
+Can you please create a PPT on this. Please include snapshot of commands/handson.
+
+ Agenda can cover these. Please add if any topic is missed
+ 
+Need for Repository, Create/Delete project/branch, Push/Pull, Merge/Rebase/Reset, Local & Remote repository, 
+Comparison with other repositories
